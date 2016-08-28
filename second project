@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i;
+for(i=0;i<=100;i++)
+{
+if(i%5==0)
+{
+if(i%3==0)
+printf("\n\tfizzbuzz");
+else
+printf("\n\t buzz");
+}
+else
+{
+if(i%3==0)
+printf("\n\tfizz);
+else
+printf("\n\tbuzz");
+}
+}
+getch();
+}
+
